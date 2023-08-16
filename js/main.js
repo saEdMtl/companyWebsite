@@ -104,4 +104,8 @@ $(document).ready(function () {
         $(".six").css("display", "none");
     });
 
+    $(".hamburgerMenu").click(function () {
+        $(".hamburgerNav").toggleClass("showHamburgerNav");
+    });
+
 });
